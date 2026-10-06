@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>墨屿 MOYU2077 · 个人主页</title>
+<meta name="description" content="墨屿（MOYU2077）—— Vibe Coding 开发者、重度 AI 使用者。">
+<style>
+  :root { --ink:#1a1a1a; --muted:#8a8a8a; --line:#e8e8e8; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body { background:#fff; color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif; line-height:1.9; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:640px; margin:0 auto; padding:0 28px; }
+  header { padding:16vh 0 8vh; }
+  .name { font-size:44px; font-weight:700; letter-spacing:2px; }
+  .name .en { color:var(--muted); font-size:20px; font-weight:400; letter-spacing:1px; margin-left:10px; }
+  .tag { margin-top:18px; font-size:16px; color:var(--muted); }
+  section { padding:48px 0; border-top:1px solid var(--line); }
+  h2 { font-size:13px; letter-spacing:4px; color:var(--muted); font-weight:600; margin-bottom:22px; }
+  p.intro { font-size:17px; max-width:520px; }
+  ul.skills { list-style:none; }
+  ul.skills li { padding:10px 0; border-bottom:1px solid var(--line); font-size:15.5px; display:flex; justify-content:space-between; gap:20px; }
+  ul.skills li span { color:var(--muted); font-size:13px; white-space:nowrap; }
+  .contact { display:flex; flex-wrap:wrap; gap:32px; }
+  .contact a { color:var(--ink); text-decoration:none; font-size:15.5px; border-bottom:1px solid var(--ink); padding-bottom:2px; transition:color .2s,border-color .2s; }
+  .contact a:hover { color:#888; border-color:#888; }
+  footer { padding:64px 0 48px; border-top:1px solid var(--line); color:var(--muted); font-size:12.5px; letter-spacing:1px; }
+  @media (max-width:480px){ .name{font-size:34px;} header{padding-top:12vh;} ul.skills li{flex-direction:column;gap:2px;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="name">墨屿<span class="en">MOYU2077</span></div>
+    <div class="tag">Vibe Coding 开发者 · 重度 AI 使用者</div>
+  </header>
+
+  <main>
+    <section>
+      <h2>关于我</h2>
+      <p class="intro">
+        一名以 AI 为伴、以代码为表达的开发者。习惯把想法快速做成可用的工具——用自然语言与模型协作编程，边写边调，快速交付。相信好的工具应该简单、安静、真正解决问题。
+      </p>
+    </section>
+
+    <section>
+      <h2>技能与方向</h2>
+      <ul class="skills">
+        <li>微信小程序开发 <span>WeChat Mini Program</span></li>
+        <li>H5 / 前端开发 <span>HTML · CSS · JavaScript</span></li>
+        <li>Vibe Coding <span>AI 协作式编程工作流</span></li>
+        <li>AI 工具工程化 <span>Prompt · Agent · 效率工具</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>联系方式</h2>
+      <div class="contact">
+        <a href="https://github.com/MOYU2077" target="_blank" rel="noopener">GitHub →</a>
+        <a href="mailto:wuzihaogc@gmail.com">wuzihaogc@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 墨屿 MOYU2077 · moyu2077.github.io</footer>
+</div>
+</body>
+</html>
